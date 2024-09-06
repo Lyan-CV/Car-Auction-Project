@@ -1,0 +1,36 @@
+.items{
+    
+    display: grid;
+    grid-template-columns: 50fr 50fr 50fr 50fr 50fr;
+    grid-template-rows:    25vh 25vh 25vh 25vh 25vh 25vh;
+    background-color:aquamarine;
+}
+.container{
+
+    display: grid;
+
+}
+
+.borda{
+
+    border: 1px solid white;
+}
+.area_form{
+
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 4;
+    background: linear-gradient(90deg, rgba(8,119,217,0.7861519607843137) 23%, rgba(71,89,189,0.7777485994397759) 30%, rgba(124,66,223,0.7665441176470589) 54%, rgba(117,27,198,0.7917542016806722) 74%, rgba(230,67,242,0.7777485994397759) 100%);
+
+}
+.area_lista{
+    padding-top: 20px;
+    grid-column: 1 / span 5;
+}
+
+.linha_par{
+    background-color: white;
+}
+
+.linha_impar{
+    background-color: lightgray;
+}

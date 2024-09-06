@@ -1,0 +1,53 @@
+.container{
+
+    display: grid;
+
+}
+
+.borda{
+
+    border: 1px solid white;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh 9vh;   
+    background: linear-gradient(90deg, rgba(41,54,103,1) 23%, rgba(33,41,87,1) 30%, rgba(54,32,91,1) 54%, rgba(15,21,74,1) 74%, rgba(22,1,31,1) 100%);
+}
+
+.area_form{
+
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 10;
+    background: linear-gradient(90deg, rgba(8,119,217,0.7861519607843137) 23%, rgba(71,89,189,0.7777485994397759) 30%, rgba(124,66,223,0.7665441176470589) 54%, rgba(117,27,198,0.7917542016806722) 74%, rgba(230,67,242,0.7777485994397759) 100%);
+
+}
+
+.area_lista{
+    padding-top: 20px;
+    grid-column: 1 / span 4;
+}
+
+.linha_par{
+    background-color: white;
+}
+
+.linha_impar{
+    background-color: lightgray;
+}
+
+.informacoes{
+
+    grid-column: 4 / span 2;
+    grid-row: 3 / span 6;
+    size: 10vh;
+
+}
+
+
+.resposta{
+    border: 1px solid red;
+    background-color: brown;
+
+}
